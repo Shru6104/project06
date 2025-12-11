@@ -1,0 +1,38 @@
+body {
+    background-color: #4babff;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.title {
+    color: #004c99;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.chat-title, .suggest-title {
+    color: #004c99;
+    font-weight: bold;
+}
+
+.chat-message {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.chat-message.user {
+    background-color: #d4eaff;
+}
+
+.chat-message.bot {
+    background-color: #e8f5ff;
+    border-left: 4px solid #0073e6;
+}
